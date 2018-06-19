@@ -1,0 +1,5 @@
+.Sidebar {
+  flex: 1 0 auto;
+  background-color: rgba(0,0,0,0.1);
+  padding: 40px;
+}

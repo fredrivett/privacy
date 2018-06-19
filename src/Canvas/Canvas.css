@@ -1,0 +1,29 @@
+.Canvas {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+  .Canvas__section {
+    padding: 20px;
+  }
+
+  .Canvas__section > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .Canvas__section:nth-child(1) { background-color: rgba(0,0,0,0.1); color: white; }
+  .Canvas__section:nth-child(2) { background-color: rgba(0,0,0,0.2); color: white; }
+  .Canvas__section:nth-child(3) { background-color: rgba(0,0,0,0.3); color: white; }
+  .Canvas__section:nth-child(4) { background-color: rgba(0,0,0,0.4); color: white; }
+
+
+    .Canvas__section-header {
+      font-size: 20px;
+      margin-bottom: 0.5em;
+    }
+
+
+    .Canvas__icon {
+      font-size: 20px;
+    }

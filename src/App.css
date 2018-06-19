@@ -1,0 +1,76 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+.Main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+label {
+  display: block;
+}
+
+
+.Questions {
+  flex: 1 1 35%;
+  padding: 40px;
+}
+
+.QuestionBlock {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 0px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+
+input + label {
+  margin-top: 20px;
+}
+
+

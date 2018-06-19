@@ -1,0 +1,32 @@
+.QuestionBlock {}
+
+
+  .QuestionBlock__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  
+    .QuestionBlock__header-arrow {
+      transform: rotate(180deg);
+      transition: all 250ms ease;
+      opacity: 0.25;
+    }
+
+    .QuestionBlock__header:hover .QuestionBlock__header-arrow {
+      opacity: 1;
+    }
+
+    .QuestionBlock.is-collapsed .QuestionBlock__header-arrow {
+      transform: none;
+    }
+
+
+  .QuestionBlock__questions {
+    margin-top: 1em;
+  }
+
+  .QuestionBlock.is-collapsed .QuestionBlock__questions {
+    display: none;
+  }
